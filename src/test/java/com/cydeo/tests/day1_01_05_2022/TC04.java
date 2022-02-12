@@ -1,4 +1,4 @@
-package com.cydeo.tests;
+package com.cydeo.tests.day1_01_05_2022;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
