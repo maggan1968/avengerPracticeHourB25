@@ -1,13 +1,11 @@
 package com.cydeo.tests.day2_12_02_2022;
 
 import com.cydeo.utilities.WebDriverFactory;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TC01 {
+public class TC01_Home_Is_Displayed {
     public static void main(String[] args) {
 
         // TC:1 As a user I should be able to see Home is displayed
@@ -36,6 +34,7 @@ public class TC01 {
         } else {
             System.out.println("Failed");
         }
+        driver.close();
     }
 }
 
