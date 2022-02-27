@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class TC04 {
+public class TC04_Verify {
 
     private static WebDriver driver;
     public static void main(String[] args) {
