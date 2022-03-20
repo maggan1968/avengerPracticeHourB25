@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cydeo</groupId>
-    <artifactId>avengerPracticeHourB25</artifactId>
+    <groupId>com.cydeo</groupId>
+    <artifactId>AvengerPracticeHour</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -27,12 +27,15 @@
             <artifactId>webdrivermanager</artifactId>
             <version>5.0.3</version>
         </dependency>
+
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>RELEASE</version>
+            <version>7.4.0</version>
             <scope>test</scope>
         </dependency>
+
+
     </dependencies>
 
 </project>
